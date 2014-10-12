@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60E911919A8B0A600EF23D5 /* YAS2DStringsData.mm in Sources */ = {isa = PBXBuildFile; fileRef = B60E911819A8B0A600EF23D5 /* YAS2DStringsData.mm */; };
+		B6345F4F19A0D03900D8FF2F /* YAS2DNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6345F4E19A0D03900D8FF2F /* YAS2DNode.mm */; };
+		B6345F5219A0D16F00D8FF2F /* YAS2DMesh.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6345F5119A0D16F00D8FF2F /* YAS2DMesh.mm */; };
+		B6345F5819A0E79800D8FF2F /* YAS2DRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6345F5719A0E79800D8FF2F /* YAS2DRenderer.mm */; };
+		B6345F5B19A0EC9700D8FF2F /* YASSWViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6345F5A19A0EC9700D8FF2F /* YASSWViewController.mm */; };
+		B63CC87219A8DEC100DBF05D /* YAS2DStringsNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B63CC87119A8DEC100DBF05D /* YAS2DStringsNode.mm */; };
+		B63EB47619D4539A00E2946B /* YASSWStrokeNeedleNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B63EB47519D4539A00E2946B /* YASSWStrokeNeedleNode.mm */; };
+		B663338019E0055F00FC884B /* YAS2DTransforms.mm in Sources */ = {isa = PBXBuildFile; fileRef = B663337E19E0055F00FC884B /* YAS2DTransforms.mm */; };
+		B663338319E03F6500FC884B /* YASMetalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B663338219E03F6500FC884B /* YASMetalViewController.m */; };
+		B66C833B19A06F94008687C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C833A19A06F94008687C5 /* main.m */; };
+		B66C833E19A06F94008687C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C833D19A06F94008687C5 /* AppDelegate.m */; };
+		B66C834619A06F94008687C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66C834419A06F94008687C5 /* Main.storyboard */; };
+		B66C834819A06F94008687C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66C834719A06F94008687C5 /* Images.xcassets */; };
+		B66C835419A06F94008687C5 /* YASMetalBigStopwatchControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C835319A06F94008687C5 /* YASMetalBigStopwatchControllerTests.m */; };
+		B66C836419A070F6008687C5 /* YASSWDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C836319A070F6008687C5 /* YASSWDataStore.m */; };
+		B66C836719A07221008687C5 /* YASSWTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C836619A07221008687C5 /* YASSWTimeController.m */; };
+		B66C836A19A07269008687C5 /* YASSWState.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C836919A07269008687C5 /* YASSWState.m */; };
+		B68EC70019A1A42C00E1B37C /* YASMetalRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B68EC6FF19A1A42C00E1B37C /* YASMetalRenderer.mm */; };
+		B69209D519A468B700BA2B64 /* YAS2DSquareNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B69209D419A468B700BA2B64 /* YAS2DSquareNode.mm */; };
+		B6A1315F19B5568300D01EA0 /* YASSWFillNeedleNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6A1315E19B5568300D01EA0 /* YASSWFillNeedleNode.mm */; };
+		B6A5512B19E0EFA9001FEE36 /* YASMetalView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A5512A19E0EFA9001FEE36 /* YASMetalView.m */; };
+		B6A5B92519B2BD6F001F59B2 /* YASSWLineCircleNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B92419B2BD6F001F59B2 /* YASSWLineCircleNode.mm */; };
+		B6A5B92E19B2C003001F59B2 /* YASSWTimeNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6A5B92D19B2C003001F59B2 /* YASSWTimeNode.mm */; };
+		B6A7101C19A9C84B008C551D /* YAS2DAction.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6A7101B19A9C84B008C551D /* YAS2DAction.mm */; };
+		B6AC20B119A0A30500F42807 /* YASMetalBigStopwatchDataStoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AC20B019A0A30500F42807 /* YASMetalBigStopwatchDataStoreTest.m */; };
+		B6B02E8819A1A62F00130B58 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B66C834219A06F94008687C5 /* Shaders.metal */; };
+		B6C92BC019AC20D200F723A4 /* YAS2DTouch.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6C92BBF19AC20D200F723A4 /* YAS2DTouch.mm */; };
+		B6D7DF4A19BD404F008CDC5B /* YAS2DBlurNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6D7DF4919BD404F008CDC5B /* YAS2DBlurNode.mm */; };
+		B6E591FF19B00B4D00B2DF11 /* YASSWCircleButtonNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6E591FE19B00B4D00B2DF11 /* YASSWCircleButtonNode.mm */; };
+		B6E5920219B00BC700B2DF11 /* YASSWButtonNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6E5920119B00BC700B2DF11 /* YASSWButtonNode.mm */; };
+		B6E7C9D219B8B2FD00A6A566 /* YAS2DGestureRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6E7C9D119B8B2FD00A6A566 /* YAS2DGestureRecognizer.mm */; };
+		B6FDA05919A2E48A00ABBFDB /* YAS2DTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDA05819A2E48A00ABBFDB /* YAS2DTexture.m */; };
+		B6FDA05C19A397C000ABBFDB /* YAS2DImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FDA05B19A397C000ABBFDB /* YAS2DImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B66C834E19A06F94008687C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B66C832D19A06F94008687C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B66C833419A06F94008687C5;
+			remoteInfo = YASMetalBigStopwatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B60E911719A8B0A600EF23D5 /* YAS2DStringsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DStringsData.h; sourceTree = "<group>"; };
+		B60E911819A8B0A600EF23D5 /* YAS2DStringsData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DStringsData.mm; sourceTree = "<group>"; };
+		B6345F4D19A0D03900D8FF2F /* YAS2DNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DNode.h; sourceTree = "<group>"; };
+		B6345F4E19A0D03900D8FF2F /* YAS2DNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DNode.mm; sourceTree = "<group>"; };
+		B6345F5019A0D16F00D8FF2F /* YAS2DMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DMesh.h; sourceTree = "<group>"; };
+		B6345F5119A0D16F00D8FF2F /* YAS2DMesh.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DMesh.mm; sourceTree = "<group>"; };
+		B6345F5619A0E79800D8FF2F /* YAS2DRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DRenderer.h; sourceTree = "<group>"; };
+		B6345F5719A0E79800D8FF2F /* YAS2DRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DRenderer.mm; sourceTree = "<group>"; };
+		B6345F5919A0EC9700D8FF2F /* YASSWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWViewController.h; sourceTree = "<group>"; };
+		B6345F5A19A0EC9700D8FF2F /* YASSWViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YASSWViewController.mm; sourceTree = "<group>"; };
+		B63CC87019A8DEC100DBF05D /* YAS2DStringsNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DStringsNode.h; sourceTree = "<group>"; };
+		B63CC87119A8DEC100DBF05D /* YAS2DStringsNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DStringsNode.mm; sourceTree = "<group>"; };
+		B63EB47419D4539A00E2946B /* YASSWStrokeNeedleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWStrokeNeedleNode.h; sourceTree = "<group>"; };
+		B63EB47519D4539A00E2946B /* YASSWStrokeNeedleNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YASSWStrokeNeedleNode.mm; sourceTree = "<group>"; };
+		B663337E19E0055F00FC884B /* YAS2DTransforms.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DTransforms.mm; sourceTree = "<group>"; };
+		B663337F19E0055F00FC884B /* YAS2DTransforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DTransforms.h; sourceTree = "<group>"; };
+		B663338119E03F6500FC884B /* YASMetalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASMetalViewController.h; sourceTree = "<group>"; };
+		B663338219E03F6500FC884B /* YASMetalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YASMetalViewController.m; sourceTree = "<group>"; };
+		B66C833519A06F94008687C5 /* YASMetalBigStopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YASMetalBigStopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C833919A06F94008687C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66C833A19A06F94008687C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B66C833C19A06F94008687C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B66C833D19A06F94008687C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B66C834219A06F94008687C5 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		B66C834519A06F94008687C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B66C834719A06F94008687C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B66C834D19A06F94008687C5 /* YASMetalBigStopwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YASMetalBigStopwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B66C835219A06F94008687C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66C835319A06F94008687C5 /* YASMetalBigStopwatchControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YASMetalBigStopwatchControllerTests.m; sourceTree = "<group>"; };
+		B66C836219A070F6008687C5 /* YASSWDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWDataStore.h; sourceTree = "<group>"; };
+		B66C836319A070F6008687C5 /* YASSWDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YASSWDataStore.m; sourceTree = "<group>"; };
+		B66C836519A07221008687C5 /* YASSWTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWTimeController.h; sourceTree = "<group>"; };
+		B66C836619A07221008687C5 /* YASSWTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YASSWTimeController.m; sourceTree = "<group>"; };
+		B66C836819A07269008687C5 /* YASSWState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWState.h; sourceTree = "<group>"; };
+		B66C836919A07269008687C5 /* YASSWState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YASSWState.m; sourceTree = "<group>"; };
+		B68EC6FE19A1A42C00E1B37C /* YASMetalRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASMetalRenderer.h; sourceTree = "<group>"; };
+		B68EC6FF19A1A42C00E1B37C /* YASMetalRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YASMetalRenderer.mm; sourceTree = "<group>"; };
+		B69209D319A468B700BA2B64 /* YAS2DSquareNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DSquareNode.h; sourceTree = "<group>"; };
+		B69209D419A468B700BA2B64 /* YAS2DSquareNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DSquareNode.mm; sourceTree = "<group>"; };
+		B69209D619A470AB00BA2B64 /* YAS2DSharedTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DSharedTypes.h; sourceTree = "<group>"; };
+		B6A1315D19B5568300D01EA0 /* YASSWFillNeedleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWFillNeedleNode.h; sourceTree = "<group>"; };
+		B6A1315E19B5568300D01EA0 /* YASSWFillNeedleNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YASSWFillNeedleNode.mm; sourceTree = "<group>"; };
+		B6A5512919E0EFA9001FEE36 /* YASMetalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASMetalView.h; sourceTree = "<group>"; };
+		B6A5512A19E0EFA9001FEE36 /* YASMetalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YASMetalView.m; sourceTree = "<group>"; };
+		B6A5B92319B2BD6F001F59B2 /* YASSWLineCircleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWLineCircleNode.h; sourceTree = "<group>"; };
+		B6A5B92419B2BD6F001F59B2 /* YASSWLineCircleNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YASSWLineCircleNode.mm; sourceTree = "<group>"; };
+		B6A5B92C19B2C003001F59B2 /* YASSWTimeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWTimeNode.h; sourceTree = "<group>"; };
+		B6A5B92D19B2C003001F59B2 /* YASSWTimeNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YASSWTimeNode.mm; sourceTree = "<group>"; };
+		B6A7101A19A9C84B008C551D /* YAS2DAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DAction.h; sourceTree = "<group>"; };
+		B6A7101B19A9C84B008C551D /* YAS2DAction.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DAction.mm; sourceTree = "<group>"; };
+		B6AC20B019A0A30500F42807 /* YASMetalBigStopwatchDataStoreTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YASMetalBigStopwatchDataStoreTest.m; sourceTree = "<group>"; };
+		B6C92BBE19AC20D200F723A4 /* YAS2DTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DTouch.h; sourceTree = "<group>"; };
+		B6C92BBF19AC20D200F723A4 /* YAS2DTouch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DTouch.mm; sourceTree = "<group>"; };
+		B6D7DF4819BD404F008CDC5B /* YAS2DBlurNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DBlurNode.h; sourceTree = "<group>"; };
+		B6D7DF4919BD404F008CDC5B /* YAS2DBlurNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DBlurNode.mm; sourceTree = "<group>"; };
+		B6E591FD19B00B4D00B2DF11 /* YASSWCircleButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWCircleButtonNode.h; sourceTree = "<group>"; };
+		B6E591FE19B00B4D00B2DF11 /* YASSWCircleButtonNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YASSWCircleButtonNode.mm; sourceTree = "<group>"; };
+		B6E5920019B00BC700B2DF11 /* YASSWButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YASSWButtonNode.h; sourceTree = "<group>"; };
+		B6E5920119B00BC700B2DF11 /* YASSWButtonNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YASSWButtonNode.mm; sourceTree = "<group>"; };
+		B6E7C9D019B8B2FD00A6A566 /* YAS2DGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DGestureRecognizer.h; sourceTree = "<group>"; };
+		B6E7C9D119B8B2FD00A6A566 /* YAS2DGestureRecognizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YAS2DGestureRecognizer.mm; sourceTree = "<group>"; };
+		B6FDA05719A2E48A00ABBFDB /* YAS2DTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DTexture.h; sourceTree = "<group>"; };
+		B6FDA05819A2E48A00ABBFDB /* YAS2DTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAS2DTexture.m; sourceTree = "<group>"; };
+		B6FDA05A19A397C000ABBFDB /* YAS2DImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAS2DImage.h; sourceTree = "<group>"; };
+		B6FDA05B19A397C000ABBFDB /* YAS2DImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAS2DImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B66C833219A06F94008687C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C834A19A06F94008687C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6345F4C19A0D02800D8FF2F /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B6FBCE9E19BAC74A0026C0E2 /* YAS2D */,
+				B6FE75A519DFADB500CEABCD /* YASSW */,
+				B66C834419A06F94008687C5 /* Main.storyboard */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		B66C832C19A06F94008687C5 = {
+			isa = PBXGroup;
+			children = (
+				B66C833719A06F94008687C5 /* YASMetalBigStopwatch */,
+				B66C835019A06F94008687C5 /* YASMetalBigStopwatchTests */,
+				B66C833619A06F94008687C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B66C833619A06F94008687C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B66C833519A06F94008687C5 /* YASMetalBigStopwatch.app */,
+				B66C834D19A06F94008687C5 /* YASMetalBigStopwatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B66C833719A06F94008687C5 /* YASMetalBigStopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				B66C835D19A0705A008687C5 /* StopwatchMain */,
+				B6345F4C19A0D02800D8FF2F /* Graphics */,
+				B66C833C19A06F94008687C5 /* AppDelegate.h */,
+				B66C833D19A06F94008687C5 /* AppDelegate.m */,
+				B66C834219A06F94008687C5 /* Shaders.metal */,
+				B66C834719A06F94008687C5 /* Images.xcassets */,
+				B66C833819A06F94008687C5 /* Supporting Files */,
+			);
+			path = YASMetalBigStopwatch;
+			sourceTree = "<group>";
+		};
+		B66C833819A06F94008687C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B66C833919A06F94008687C5 /* Info.plist */,
+				B66C833A19A06F94008687C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B66C835019A06F94008687C5 /* YASMetalBigStopwatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B66C835319A06F94008687C5 /* YASMetalBigStopwatchControllerTests.m */,
+				B6AC20B019A0A30500F42807 /* YASMetalBigStopwatchDataStoreTest.m */,
+				B66C835119A06F94008687C5 /* Supporting Files */,
+			);
+			path = YASMetalBigStopwatchTests;
+			sourceTree = "<group>";
+		};
+		B66C835119A06F94008687C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B66C835219A06F94008687C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B66C835D19A0705A008687C5 /* StopwatchMain */ = {
+			isa = PBXGroup;
+			children = (
+				B66C836519A07221008687C5 /* YASSWTimeController.h */,
+				B66C836619A07221008687C5 /* YASSWTimeController.m */,
+				B66C836219A070F6008687C5 /* YASSWDataStore.h */,
+				B66C836319A070F6008687C5 /* YASSWDataStore.m */,
+				B66C836819A07269008687C5 /* YASSWState.h */,
+				B66C836919A07269008687C5 /* YASSWState.m */,
+			);
+			name = StopwatchMain;
+			sourceTree = "<group>";
+		};
+		B6FBCE9E19BAC74A0026C0E2 /* YAS2D */ = {
+			isa = PBXGroup;
+			children = (
+				B69209D619A470AB00BA2B64 /* YAS2DSharedTypes.h */,
+				B663337F19E0055F00FC884B /* YAS2DTransforms.h */,
+				B663337E19E0055F00FC884B /* YAS2DTransforms.mm */,
+				B663338119E03F6500FC884B /* YASMetalViewController.h */,
+				B663338219E03F6500FC884B /* YASMetalViewController.m */,
+				B6A5512919E0EFA9001FEE36 /* YASMetalView.h */,
+				B6A5512A19E0EFA9001FEE36 /* YASMetalView.m */,
+				B68EC6FE19A1A42C00E1B37C /* YASMetalRenderer.h */,
+				B68EC6FF19A1A42C00E1B37C /* YASMetalRenderer.mm */,
+				B6345F5619A0E79800D8FF2F /* YAS2DRenderer.h */,
+				B6345F5719A0E79800D8FF2F /* YAS2DRenderer.mm */,
+				B6345F4D19A0D03900D8FF2F /* YAS2DNode.h */,
+				B6345F4E19A0D03900D8FF2F /* YAS2DNode.mm */,
+				B6345F5019A0D16F00D8FF2F /* YAS2DMesh.h */,
+				B6345F5119A0D16F00D8FF2F /* YAS2DMesh.mm */,
+				B6FDA05719A2E48A00ABBFDB /* YAS2DTexture.h */,
+				B6FDA05819A2E48A00ABBFDB /* YAS2DTexture.m */,
+				B6FDA05A19A397C000ABBFDB /* YAS2DImage.h */,
+				B6FDA05B19A397C000ABBFDB /* YAS2DImage.m */,
+				B69209D319A468B700BA2B64 /* YAS2DSquareNode.h */,
+				B69209D419A468B700BA2B64 /* YAS2DSquareNode.mm */,
+				B60E911719A8B0A600EF23D5 /* YAS2DStringsData.h */,
+				B60E911819A8B0A600EF23D5 /* YAS2DStringsData.mm */,
+				B63CC87019A8DEC100DBF05D /* YAS2DStringsNode.h */,
+				B63CC87119A8DEC100DBF05D /* YAS2DStringsNode.mm */,
+				B6C92BBE19AC20D200F723A4 /* YAS2DTouch.h */,
+				B6C92BBF19AC20D200F723A4 /* YAS2DTouch.mm */,
+				B6E7C9D019B8B2FD00A6A566 /* YAS2DGestureRecognizer.h */,
+				B6E7C9D119B8B2FD00A6A566 /* YAS2DGestureRecognizer.mm */,
+				B6A7101A19A9C84B008C551D /* YAS2DAction.h */,
+				B6A7101B19A9C84B008C551D /* YAS2DAction.mm */,
+				B6D7DF4819BD404F008CDC5B /* YAS2DBlurNode.h */,
+				B6D7DF4919BD404F008CDC5B /* YAS2DBlurNode.mm */,
+			);
+			name = YAS2D;
+			sourceTree = "<group>";
+		};
+		B6FE75A519DFADB500CEABCD /* YASSW */ = {
+			isa = PBXGroup;
+			children = (
+				B6345F5919A0EC9700D8FF2F /* YASSWViewController.h */,
+				B6345F5A19A0EC9700D8FF2F /* YASSWViewController.mm */,
+				B6A5B92319B2BD6F001F59B2 /* YASSWLineCircleNode.h */,
+				B6A5B92419B2BD6F001F59B2 /* YASSWLineCircleNode.mm */,
+				B6A1315D19B5568300D01EA0 /* YASSWFillNeedleNode.h */,
+				B6A1315E19B5568300D01EA0 /* YASSWFillNeedleNode.mm */,
+				B63EB47419D4539A00E2946B /* YASSWStrokeNeedleNode.h */,
+				B63EB47519D4539A00E2946B /* YASSWStrokeNeedleNode.mm */,
+				B6E5920019B00BC700B2DF11 /* YASSWButtonNode.h */,
+				B6E5920119B00BC700B2DF11 /* YASSWButtonNode.mm */,
+				B6E591FD19B00B4D00B2DF11 /* YASSWCircleButtonNode.h */,
+				B6E591FE19B00B4D00B2DF11 /* YASSWCircleButtonNode.mm */,
+				B6A5B92C19B2C003001F59B2 /* YASSWTimeNode.h */,
+				B6A5B92D19B2C003001F59B2 /* YASSWTimeNode.mm */,
+			);
+			name = YASSW;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B66C833419A06F94008687C5 /* YASMetalBigStopwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C835719A06F94008687C5 /* Build configuration list for PBXNativeTarget "YASMetalBigStopwatch" */;
+			buildPhases = (
+				B66C833119A06F94008687C5 /* Sources */,
+				B66C833219A06F94008687C5 /* Frameworks */,
+				B66C833319A06F94008687C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YASMetalBigStopwatch;
+			productName = YASMetalBigStopwatch;
+			productReference = B66C833519A06F94008687C5 /* YASMetalBigStopwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B66C834C19A06F94008687C5 /* YASMetalBigStopwatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B66C835A19A06F94008687C5 /* Build configuration list for PBXNativeTarget "YASMetalBigStopwatchTests" */;
+			buildPhases = (
+				B66C834919A06F94008687C5 /* Sources */,
+				B66C834A19A06F94008687C5 /* Frameworks */,
+				B66C834B19A06F94008687C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B66C834F19A06F94008687C5 /* PBXTargetDependency */,
+			);
+			name = YASMetalBigStopwatchTests;
+			productName = YASMetalBigStopwatchTests;
+			productReference = B66C834D19A06F94008687C5 /* YASMetalBigStopwatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B66C832D19A06F94008687C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Objective-Audio";
+				TargetAttributes = {
+					B66C833419A06F94008687C5 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					B66C834C19A06F94008687C5 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = B66C833419A06F94008687C5;
+					};
+				};
+			};
+			buildConfigurationList = B66C833019A06F94008687C5 /* Build configuration list for PBXProject "YASMetalBigStopwatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B66C832C19A06F94008687C5;
+			productRefGroup = B66C833619A06F94008687C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B66C833419A06F94008687C5 /* YASMetalBigStopwatch */,
+				B66C834C19A06F94008687C5 /* YASMetalBigStopwatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B66C833319A06F94008687C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66C834619A06F94008687C5 /* Main.storyboard in Resources */,
+				B66C834819A06F94008687C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C834B19A06F94008687C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B66C833119A06F94008687C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A1315F19B5568300D01EA0 /* YASSWFillNeedleNode.mm in Sources */,
+				B6A5B92519B2BD6F001F59B2 /* YASSWLineCircleNode.mm in Sources */,
+				B6FDA05C19A397C000ABBFDB /* YAS2DImage.m in Sources */,
+				B6A7101C19A9C84B008C551D /* YAS2DAction.mm in Sources */,
+				B60E911919A8B0A600EF23D5 /* YAS2DStringsData.mm in Sources */,
+				B6345F5819A0E79800D8FF2F /* YAS2DRenderer.mm in Sources */,
+				B6E7C9D219B8B2FD00A6A566 /* YAS2DGestureRecognizer.mm in Sources */,
+				B63EB47619D4539A00E2946B /* YASSWStrokeNeedleNode.mm in Sources */,
+				B6E5920219B00BC700B2DF11 /* YASSWButtonNode.mm in Sources */,
+				B63CC87219A8DEC100DBF05D /* YAS2DStringsNode.mm in Sources */,
+				B66C836A19A07269008687C5 /* YASSWState.m in Sources */,
+				B66C833E19A06F94008687C5 /* AppDelegate.m in Sources */,
+				B6D7DF4A19BD404F008CDC5B /* YAS2DBlurNode.mm in Sources */,
+				B6A5512B19E0EFA9001FEE36 /* YASMetalView.m in Sources */,
+				B66C836719A07221008687C5 /* YASSWTimeController.m in Sources */,
+				B66C833B19A06F94008687C5 /* main.m in Sources */,
+				B6A5B92E19B2C003001F59B2 /* YASSWTimeNode.mm in Sources */,
+				B66C836419A070F6008687C5 /* YASSWDataStore.m in Sources */,
+				B6B02E8819A1A62F00130B58 /* Shaders.metal in Sources */,
+				B6345F4F19A0D03900D8FF2F /* YAS2DNode.mm in Sources */,
+				B663338019E0055F00FC884B /* YAS2DTransforms.mm in Sources */,
+				B663338319E03F6500FC884B /* YASMetalViewController.m in Sources */,
+				B6345F5B19A0EC9700D8FF2F /* YASSWViewController.mm in Sources */,
+				B69209D519A468B700BA2B64 /* YAS2DSquareNode.mm in Sources */,
+				B6FDA05919A2E48A00ABBFDB /* YAS2DTexture.m in Sources */,
+				B6C92BC019AC20D200F723A4 /* YAS2DTouch.mm in Sources */,
+				B68EC70019A1A42C00E1B37C /* YASMetalRenderer.mm in Sources */,
+				B6E591FF19B00B4D00B2DF11 /* YASSWCircleButtonNode.mm in Sources */,
+				B6345F5219A0D16F00D8FF2F /* YAS2DMesh.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66C834919A06F94008687C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AC20B119A0A30500F42807 /* YASMetalBigStopwatchDataStoreTest.m in Sources */,
+				B66C835419A06F94008687C5 /* YASMetalBigStopwatchControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B66C834F19A06F94008687C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B66C833419A06F94008687C5 /* YASMetalBigStopwatch */;
+			targetProxy = B66C834E19A06F94008687C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B66C834419A06F94008687C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B66C834519A06F94008687C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B66C835519A06F94008687C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B66C835619A06F94008687C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B66C835819A06F94008687C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YASMetalBigStopwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B66C835919A06F94008687C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YASMetalBigStopwatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B66C835B19A06F94008687C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YASMetalBigStopwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YASMetalBigStopwatch.app/YASMetalBigStopwatch";
+			};
+			name = Debug;
+		};
+		B66C835C19A06F94008687C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YASMetalBigStopwatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YASMetalBigStopwatch.app/YASMetalBigStopwatch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B66C833019A06F94008687C5 /* Build configuration list for PBXProject "YASMetalBigStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C835519A06F94008687C5 /* Debug */,
+				B66C835619A06F94008687C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C835719A06F94008687C5 /* Build configuration list for PBXNativeTarget "YASMetalBigStopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C835819A06F94008687C5 /* Debug */,
+				B66C835919A06F94008687C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B66C835A19A06F94008687C5 /* Build configuration list for PBXNativeTarget "YASMetalBigStopwatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B66C835B19A06F94008687C5 /* Debug */,
+				B66C835C19A06F94008687C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B66C832D19A06F94008687C5 /* Project object */;
+}
